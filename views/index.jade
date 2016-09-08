@@ -1,0 +1,14 @@
+html
+    head
+        link(rel='stylesheet', href='style.css', type='text/css')
+        title Upload file for shortening
+    body
+        h1 Welcome to file metadata service
+        div(id='upload-button')
+            form(enctype='multipart/form-data', method='post', action='/upload')
+                input(name='File', type='file', id='upload-butt')
+
+        script(src="https://code.jquery.com/jquery-2.2.0.min.js")
+        script(src="upload.js")
+
+            

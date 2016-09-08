@@ -1,0 +1,18 @@
+#submit-butt{
+    width:100px;
+    height:auto;
+    background-color:red;
+    cursor:pointer;
+    margin-left:150px;
+}
+
+#upload-butt{
+    width:200px;
+    height:auto;
+    cursor:pointer;
+    float:left;
+}
+
+h1{
+    font-family:Impact;
+}
